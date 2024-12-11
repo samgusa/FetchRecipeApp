@@ -13,7 +13,9 @@ At a minimum, each recipe should show its name, photo, and cuisine type. You’r
 The app should allow users to refresh the list of recipes at any time, and you can decide how to implement this in the UI. You’re free to include any additional UI elements you think would enhance the experience, but the app should consist of just one screen displaying the list of recipes.
 
 ### Steps to Run the App
-To run the app, all it needs is to load. Have fun playing around. 
+
+To run the app, click the "Code" button, and then copy the repository URL; in your development environment, use the "Clone" option to paste the URL and download the project files to your local machine, effectively creating a local copy of the GitHub repository that you can work with directly.
+Have fun.
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
@@ -69,4 +71,8 @@ I also included the link in the app and above here where I found a way to use ca
 
 |Main Content View |Simulator|
 |-|-|
+| <img src='https://github.com/user-attachments/assets/21b1ecdf-8750-4469-9ccc-d3b953cba01b' width='300'> | <img src= 'https://github.com/user-attachments/assets/d37e2430-4765-44ea-8c6a-08491bd036c2' width='300'> |
+|Picker = Malformed Data |Picker = Empty Data|
+| <img src='https://github.com/user-attachments/assets/16d0cc06-c891-408b-9d51-bd5627fdf94f' width='300'> | <img src='https://github.com/user-attachments/assets/510becc6-946d-46bf-916e-5a87a4c80a4f' width='300'> |
+
 
