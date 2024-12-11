@@ -19,7 +19,7 @@ Have fun.
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
-I prioritized creating the caching mechanism for the app. Since this is an area that I haven't experienced in quite some time it took a little time to research how to do this. 
+I focused mostly on  creating the User Interface for the app. This includes areas such as research for creating the caching mechanism for the images. 
 
 ### Time Spent: Approximately how long did you spend working on this project? How did you allocate your time?
 I timed myself when doing this. I spent around 4 hours and 25 minutes to complete this assignment. 
@@ -56,14 +56,16 @@ I timed myself when doing this. I spent around 4 hours and 25 minutes to complet
   This is the time spent cleaning up all the code to look presentable. 
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
-Yes I did make some trade-offs. I would have preferred to make more thorough unit tests, such as doing some mocking, to cover more use cases. I focused more on the user experience, 
-and the backend then the testing logic.
+
+Yes I did make some trade-offs. I would have preferred to make more thorough unit tests, such as doing some mocking, to cover more use cases. I focused more on the user experience, and the backend then the testing logic. I think I would have also liked to do more on the error handling. I would like to have implemented something like a popup warning if a series of errors happen, such as no service. 
 
 ### Weakest Part of the Project: What do you think is the weakest part of your project?
-I think that the testing is the weakest part of the project. I have familiarity with simple logic based unit tests, however I have limited experience with network based unit tests. 
+
+I think that the testing is the weakest part of the project. I have familiarity with simple logic based unit tests, however I have limited experience with network based unit tests. I think that I would have liked to expand on the tests in the future. 
 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
-I thought that it would be a nice idea to include a picker to show what the different views look like for the different endpoints. It shoudl still work any way that the user may want. 
+
+I thought that it would be a nice idea to include a picker to show what the different views look like for the different endpoints. It should still work any way that the user may want. 
 I also included the link in the app and above here where I found a way to use caching images in SwiftUI. 
 
 
