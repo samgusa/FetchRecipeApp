@@ -4,6 +4,14 @@ by Sam Greenhill
 
 This is the Fetch Reward take home test. 
 
+## Overview: 
+
+Your task is to build a recipe app that displays recipes from the provided API endpoint.
+
+At a minimum, each recipe should show its name, photo, and cuisine type. You’re welcome to display additional details or sort the recipes in any way you see fit.
+
+The app should allow users to refresh the list of recipes at any time, and you can decide how to implement this in the UI. You’re free to include any additional UI elements you think would enhance the experience, but the app should consist of just one screen displaying the list of recipes.
+
 ### Steps to Run the App
 To run the app, all it needs is to load. Have fun playing around. 
 
@@ -55,3 +63,10 @@ I think that the testing is the weakest part of the project. I have familiarity 
 ### Additional Information: Is there anything else we should know? Feel free to share any insights or constraints you encountered.
 I thought that it would be a nice idea to include a picker to show what the different views look like for the different endpoints. It shoudl still work any way that the user may want. 
 I also included the link in the app and above here where I found a way to use caching images in SwiftUI. 
+
+
+### Preview: 
+
+|Main Content View |Simulator|
+|-|-|
+
