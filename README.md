@@ -27,19 +27,22 @@ I timed myself when doing this. I spent around 4 hours and 25 minutes to complet
   
 * ViewModel (~45 minutes):
 
-  This is the time that I spent working on the ViewModel. This does not include the time I used to go back and make changes as I continued on through development.
+  This is the time that I spent working on the ViewModel. This also includes the time I used to go back and make changes during the development lifecycle.
 
 * View (~55 minutes):
 
   This is the time I spent working on all the views. This includes the mainviews and the subviews
 
 * Caching Image (~25 minutes):
-  I used a tutorial I found at https://xavier7t.com/image-caching-in-swiftui to create an image view that will cache as it is moved through a List.
+  
+  I used a tutorial I found at https://xavier7t.com/image-caching-in-swiftui to create an image view that will cache as it is moved   through a List.
 
 * Unit Testing (~30 minutes):
+  
   I spend this time creating the unit tests for the app.
 
 * Clean up (~15 minutes):
+  
   This is the time spent cleaning up all the code to look presentable. 
 
 ### Trade-offs and Decisions: Did you make any significant trade-offs in your approach?
