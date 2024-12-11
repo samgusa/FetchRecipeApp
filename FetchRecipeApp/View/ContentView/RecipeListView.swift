@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecipeListView: View {
     @StateObject private var viewModel = RecipeViewModel()
-    @State private var selectedEndpoint: RecipeEndpoints = .allRecipes
+    @State var selectedEndpoint: RecipeEndpoints = .allRecipes
 
     var body: some View {
         NavigationView {

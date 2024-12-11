@@ -30,14 +30,10 @@ struct ErrorView: View {
             }
         }
         .padding()
-
     }
 }
 
 
 #Preview {
-//    ErrorView(message: "Failed to load recipes. Please try again", retryAction: {
-//        
-//    })
     ContentView()
 }

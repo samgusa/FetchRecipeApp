@@ -46,7 +46,4 @@ class RecipeViewModel: ObservableObject {
         }
         self.isLoading = false
     }
-
-
-
 }
