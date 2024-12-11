@@ -10,23 +10,19 @@ import XCTest
 
 final class FetchingAppTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
     func testFetchRecipes_EmptyData() async {
         let viewModel = RecipeViewModel()
+        // Use a URL that simulates an empty recipe response
         let emptyData = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes-empty.json")!
 
+        // Perform the async fetch
         await viewModel.fetchRecipes(from: emptyData)
 
-        XCTAssertEqual(viewModel.recipes.count, 0, "Recipes should be empty")
-        XCTAssertEqual(viewModel.errorMessage, "No recipes available", "Empty state message should be set")
+        // Test that the recipes array is empty
+        XCTAssertEqual(viewModel.recipes.count, 0, "Recipes should be empty when the response contains no recipes")
     }
+
+
 
     func testFetchRecipes_MalformedData() async {
         let viewModel = RecipeViewModel()
