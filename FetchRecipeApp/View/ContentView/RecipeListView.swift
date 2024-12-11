@@ -50,7 +50,7 @@ struct RecipeListView: View {
             .background(Color.brown.opacity(0.4))
         }
         .task {
-            await viewModel.fetchRecipes(from: viewModel.selectedEndPoint.url)
+            await viewModel.fetchRecipes()
         }
 
     }
